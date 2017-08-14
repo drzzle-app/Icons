@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'drizzzle';
-  src: url('../font/drizzzle.eot?96980640');
-  src: url('../font/drizzzle.eot?96980640#iefix') format('embedded-opentype'),
-       url('../font/drizzzle.woff2?96980640') format('woff2'),
-       url('../font/drizzzle.woff?96980640') format('woff'),
-       url('../font/drizzzle.ttf?96980640') format('truetype'),
-       url('../font/drizzzle.svg?96980640#drizzzle') format('svg');
+  src: url('../font/drizzzle.eot?71818375');
+  src: url('../font/drizzzle.eot?71818375#iefix') format('embedded-opentype'),
+       url('../font/drizzzle.woff2?71818375') format('woff2'),
+       url('../font/drizzzle.woff?71818375') format('woff'),
+       url('../font/drizzzle.ttf?71818375') format('truetype'),
+       url('../font/drizzzle.svg?71818375#drizzzle') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'drizzzle';
-    src: url('../font/drizzzle.svg?96980640#drizzzle') format('svg');
+    src: url('../font/drizzzle.svg?71818375#drizzzle') format('svg');
   }
 }
 */
@@ -104,3 +104,18 @@
 .drzicon-table:before { content: '\e82f'; } /* '' */
 .drzicon-user-full:before { content: '\e830'; } /* '' */
 .drzicon-video-player:before { content: '\e831'; } /* '' */
+.drzicon-building:before { content: '\e832'; } /* '' */
+.drzicon-calendar:before { content: '\e833'; } /* '' */
+.drzicon-cross:before { content: '\e834'; } /* '' */
+.drzicon-ds-fish:before { content: '\e835'; } /* '' */
+.drzicon-folder:before { content: '\e836'; } /* '' */
+.drzicon-periscope:before { content: '\e837'; } /* '' */
+.drzicon-quote:before { content: '\e838'; } /* '' */
+.drzicon-form:before { content: '\e839'; } /* '' */
+.drzicon-template-footer:before { content: '\e83a'; } /* '' */
+.drzicon-template-header:before { content: '\e83b'; } /* '' */
+.drzicon-webpage:before { content: '\e83c'; } /* '' */
+.drzicon-paint-pallete-small:before { content: '\e83d'; } /* '' */
+.drzicon-microphone:before { content: '\e83e'; } /* '' */
+.drzicon-list:before { content: '\e83f'; } /* '' */
+.drzicon-javascript:before { content: '\e840'; } /* '' */
