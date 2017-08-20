@@ -23,6 +23,7 @@
 .drzicon-ds-2column-full:before { content: '\e815'; } /* '' */
 .drzicon-ds-3column-full:before { content: '\e816'; } /* '' */
 .drzicon-ds-accordion-full:before { content: '\e817'; } /* '' */
+.drzicon-minus:before { content: '\e818'; } /* '' */
 .drzicon-ds-button:before { content: '\e819'; } /* '' */
 .drzicon-ds-church:before { content: '\e81a'; } /* '' */
 .drzicon-ds-form-full:before { content: '\e81b'; } /* '' */
@@ -63,3 +64,12 @@
 .drzicon-microphone:before { content: '\e83e'; } /* '' */
 .drzicon-list:before { content: '\e83f'; } /* '' */
 .drzicon-javascript:before { content: '\e840'; } /* '' */
+.drzicon-plus-circled:before { content: '\e841'; } /* '' */
+.drzicon-plus:before { content: '\e842'; } /* '' */
+.drzicon-cancel:before { content: '\e843'; } /* '' */
+.drzicon-wide-card:before { content: '\e844'; } /* '' */
+.drzicon-step-card:before { content: '\e845'; } /* '' */
+.drzicon-general-card:before { content: '\e846'; } /* '' */
+.drzicon-event-card:before { content: '\e847'; } /* '' */
+.drzicon-plus-squared:before { content: '\f0fe'; } /* '' */
+.drzicon-minus-squared:before { content: '\f146'; } /* '' */
