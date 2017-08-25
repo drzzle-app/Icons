@@ -71,5 +71,6 @@
 .drzicon-step-card { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe845;&nbsp;'); }
 .drzicon-general-card { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe846;&nbsp;'); }
 .drzicon-event-card { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe847;&nbsp;'); }
+.drzicon-divider { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe848;&nbsp;'); }
 .drzicon-plus-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0fe;&nbsp;'); }
 .drzicon-minus-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf146;&nbsp;'); }
