@@ -1021,6 +1021,12 @@
       "search": [
         "code-brackets"
       ]
+    },
+    {
+      "uid": "4e77fc7fc71e69ba520ffa3b4d898e55",
+      "css": "upload-cloud",
+      "code": 59466,
+      "src": "typicons"
     }
   ]
 }
