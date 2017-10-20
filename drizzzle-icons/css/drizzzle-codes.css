@@ -83,6 +83,8 @@
 .drzicon-font:before { content: '\e851'; } /* '' */
 .drzicon-check:before { content: '\e852'; } /* '' */
 .drzicon-phone:before { content: '\e853'; } /* '' */
+.drzicon-eye:before { content: '\e854'; } /* '' */
+.drzicon-eye-off:before { content: '\e855'; } /* '' */
 .drzicon-mail-alt:before { content: '\f0e0'; } /* '' */
 .drzicon-upload-cloud:before { content: '\f0ee'; } /* '' */
 .drzicon-plus-squared:before { content: '\f0fe'; } /* '' */
