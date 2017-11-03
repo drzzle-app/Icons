@@ -1163,6 +1163,12 @@
       "css": "eye-off",
       "code": 59477,
       "src": "fontawesome"
+    },
+    {
+      "uid": "fda731b5a4026685e1a9c7e64228e2b2",
+      "css": "note-beamed",
+      "code": 59478,
+      "src": "entypo"
     }
   ]
 }
