@@ -1169,6 +1169,18 @@
       "css": "note-beamed",
       "code": 59478,
       "src": "entypo"
+    },
+    {
+      "uid": "bbfb51903f40597f0b70fd75bc7b5cac",
+      "css": "trash",
+      "code": 61944,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f48ae54adfb27d8ada53d0fd9e34ee10",
+      "css": "trash-empty",
+      "code": 59479,
+      "src": "fontawesome"
     }
   ]
 }

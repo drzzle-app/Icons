@@ -86,6 +86,7 @@
 .drzicon-eye:before { content: '\e854'; } /* '' */
 .drzicon-eye-off:before { content: '\e855'; } /* '' */
 .drzicon-note-beamed:before { content: '\e856'; } /* '' */
+.drzicon-trash-empty:before { content: '\e857'; } /* '' */
 .drzicon-mail-alt:before { content: '\f0e0'; } /* '' */
 .drzicon-upload-cloud:before { content: '\f0ee'; } /* '' */
 .drzicon-plus-squared:before { content: '\f0fe'; } /* '' */
@@ -96,4 +97,5 @@
 .drzicon-left:before { content: '\f177'; } /* '' */
 .drzicon-dot-circled:before { content: '\f192'; } /* '' */
 .drzicon-paragraph:before { content: '\f1dd'; } /* '' */
+.drzicon-trash:before { content: '\f1f8'; } /* '' */
 .drzicon-hashtag:before { content: '\f292'; } /* '' */
