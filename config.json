@@ -1,5 +1,5 @@
 {
-  "name": "drizzzle",
+  "name": "drzzle",
   "css_prefix_text": "drzicon-",
   "css_use_suffix": false,
   "hinting": true,
@@ -1195,6 +1195,12 @@
       "search": [
         "no-image"
       ]
+    },
+    {
+      "uid": "9dd9e835aebe1060ba7190ad2b2ed951",
+      "css": "search",
+      "code": 59481,
+      "src": "fontawesome"
     }
   ]
 }
