@@ -229,11 +229,11 @@ body {
 }
 @font-face {
       font-family: 'drzzle';
-      src: url('./font/drzzle.eot?10785066');
-      src: url('./font/drzzle.eot?10785066#iefix') format('embedded-opentype'),
-           url('./font/drzzle.woff?10785066') format('woff'),
-           url('./font/drzzle.ttf?10785066') format('truetype'),
-           url('./font/drzzle.svg?10785066#drzzle') format('svg');
+      src: url('./font/drzzle.eot?13389729');
+      src: url('./font/drzzle.eot?13389729#iefix') format('embedded-opentype'),
+           url('./font/drzzle.woff?13389729') format('woff'),
+           url('./font/drzzle.ttf?13389729') format('truetype'),
+           url('./font/drzzle.svg?13389729#drzzle') format('svg');
       font-weight: normal;
       font-style: normal;
     }
@@ -275,7 +275,7 @@ body {
       /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
     }
      </style>
-    <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/drzzle-ie7.css"><![endif]-->
+    <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/" + font.fontname + "-ie7.css"><![endif]-->
     <script>
       function toggleCodes(on) {
         var obj = document.getElementById('icons');
@@ -291,168 +291,166 @@ body {
   </head>
   <body>
     <div class="container header">
-      <h1>
-        drzzle
-         <small>font demo</small>
-      </h1>
+      <h1>drzzle <small>font demo</small></h1>
       <label class="switch">
         <input type="checkbox" onclick="toggleCodes(this.checked)">show codes
       </label>
     </div>
-    <div id="icons" class="container">
+    <div class="container" id="icons">
       <div class="row">
-        <div title="Code: 0xe800" class="the-icons span3"><i class="demo-icon drzicon-add-section-dotted">&#xe800;</i> <span class="i-name">drzicon-add-section-dotted</span><span class="i-code">0xe800</span></div>
-        <div title="Code: 0xe801" class="the-icons span3"><i class="demo-icon drzicon-add-template-full">&#xe801;</i> <span class="i-name">drzicon-add-template-full</span><span class="i-code">0xe801</span></div>
-        <div title="Code: 0xe802" class="the-icons span3"><i class="demo-icon drzicon-add-template">&#xe802;</i> <span class="i-name">drzicon-add-template</span><span class="i-code">0xe802</span></div>
-        <div title="Code: 0xe803" class="the-icons span3"><i class="demo-icon drzicon-arrow-down">&#xe803;</i> <span class="i-name">drzicon-arrow-down</span><span class="i-code">0xe803</span></div>
+        <div class="the-icons span3" title="Code: 0xe800"><i class="demo-icon drzicon-add-section-dotted">&#xe800;</i> <span class="i-name">drzicon-add-section-dotted</span><span class="i-code">0xe800</span></div>
+        <div class="the-icons span3" title="Code: 0xe801"><i class="demo-icon drzicon-add-template-full">&#xe801;</i> <span class="i-name">drzicon-add-template-full</span><span class="i-code">0xe801</span></div>
+        <div class="the-icons span3" title="Code: 0xe802"><i class="demo-icon drzicon-add-template">&#xe802;</i> <span class="i-name">drzicon-add-template</span><span class="i-code">0xe802</span></div>
+        <div class="the-icons span3" title="Code: 0xe803"><i class="demo-icon drzicon-arrow-down">&#xe803;</i> <span class="i-name">drzicon-arrow-down</span><span class="i-code">0xe803</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe804" class="the-icons span3"><i class="demo-icon drzicon-arrow-up">&#xe804;</i> <span class="i-name">drzicon-arrow-up</span><span class="i-code">0xe804</span></div>
-        <div title="Code: 0xe805" class="the-icons span3"><i class="demo-icon drzicon-card">&#xe805;</i> <span class="i-name">drzicon-card</span><span class="i-code">0xe805</span></div>
-        <div title="Code: 0xe806" class="the-icons span3"><i class="demo-icon drzicon-carousel">&#xe806;</i> <span class="i-name">drzicon-carousel</span><span class="i-code">0xe806</span></div>
-        <div title="Code: 0xe807" class="the-icons span3"><i class="demo-icon drzicon-check-drop">&#xe807;</i> <span class="i-name">drzicon-check-drop</span><span class="i-code">0xe807</span></div>
+        <div class="the-icons span3" title="Code: 0xe804"><i class="demo-icon drzicon-arrow-up">&#xe804;</i> <span class="i-name">drzicon-arrow-up</span><span class="i-code">0xe804</span></div>
+        <div class="the-icons span3" title="Code: 0xe805"><i class="demo-icon drzicon-card">&#xe805;</i> <span class="i-name">drzicon-card</span><span class="i-code">0xe805</span></div>
+        <div class="the-icons span3" title="Code: 0xe806"><i class="demo-icon drzicon-carousel">&#xe806;</i> <span class="i-name">drzicon-carousel</span><span class="i-code">0xe806</span></div>
+        <div class="the-icons span3" title="Code: 0xe807"><i class="demo-icon drzicon-check-drop">&#xe807;</i> <span class="i-name">drzicon-check-drop</span><span class="i-code">0xe807</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe808" class="the-icons span3"><i class="demo-icon drzicon-chevron-left">&#xe808;</i> <span class="i-name">drzicon-chevron-left</span><span class="i-code">0xe808</span></div>
-        <div title="Code: 0xe809" class="the-icons span3"><i class="demo-icon drzicon-chevron-right">&#xe809;</i> <span class="i-name">drzicon-chevron-right</span><span class="i-code">0xe809</span></div>
-        <div title="Code: 0xe80a" class="the-icons span3"><i class="demo-icon drzicon-content-block">&#xe80a;</i> <span class="i-name">drzicon-content-block</span><span class="i-code">0xe80a</span></div>
-        <div title="Code: 0xe80b" class="the-icons span3"><i class="demo-icon drzicon-countdown">&#xe80b;</i> <span class="i-name">drzicon-countdown</span><span class="i-code">0xe80b</span></div>
+        <div class="the-icons span3" title="Code: 0xe808"><i class="demo-icon drzicon-chevron-left">&#xe808;</i> <span class="i-name">drzicon-chevron-left</span><span class="i-code">0xe808</span></div>
+        <div class="the-icons span3" title="Code: 0xe809"><i class="demo-icon drzicon-chevron-right">&#xe809;</i> <span class="i-name">drzicon-chevron-right</span><span class="i-code">0xe809</span></div>
+        <div class="the-icons span3" title="Code: 0xe80a"><i class="demo-icon drzicon-content-block">&#xe80a;</i> <span class="i-name">drzicon-content-block</span><span class="i-code">0xe80a</span></div>
+        <div class="the-icons span3" title="Code: 0xe80b"><i class="demo-icon drzicon-countdown">&#xe80b;</i> <span class="i-name">drzicon-countdown</span><span class="i-code">0xe80b</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe80c" class="the-icons span3"><i class="demo-icon drzicon-droplet-question">&#xe80c;</i> <span class="i-name">drzicon-droplet-question</span><span class="i-code">0xe80c</span></div>
-        <div title="Code: 0xe80d" class="the-icons span3"><i class="demo-icon drzicon-droplet">&#xe80d;</i> <span class="i-name">drzicon-droplet</span><span class="i-code">0xe80d</span></div>
-        <div title="Code: 0xe80e" class="the-icons span3"><i class="demo-icon drzicon-droplets">&#xe80e;</i> <span class="i-name">drzicon-droplets</span><span class="i-code">0xe80e</span></div>
-        <div title="Code: 0xe80f" class="the-icons span3"><i class="demo-icon drzicon-drz-add-pages">&#xe80f;</i> <span class="i-name">drzicon-drz-add-pages</span><span class="i-code">0xe80f</span></div>
+        <div class="the-icons span3" title="Code: 0xe80c"><i class="demo-icon drzicon-droplet-question">&#xe80c;</i> <span class="i-name">drzicon-droplet-question</span><span class="i-code">0xe80c</span></div>
+        <div class="the-icons span3" title="Code: 0xe80d"><i class="demo-icon drzicon-droplet">&#xe80d;</i> <span class="i-name">drzicon-droplet</span><span class="i-code">0xe80d</span></div>
+        <div class="the-icons span3" title="Code: 0xe80e"><i class="demo-icon drzicon-droplets">&#xe80e;</i> <span class="i-name">drzicon-droplets</span><span class="i-code">0xe80e</span></div>
+        <div class="the-icons span3" title="Code: 0xe80f"><i class="demo-icon drzicon-drz-add-pages">&#xe80f;</i> <span class="i-name">drzicon-drz-add-pages</span><span class="i-code">0xe80f</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe810" class="the-icons span3"><i class="demo-icon drzicon-drz-add-section">&#xe810;</i> <span class="i-name">drzicon-drz-add-section</span><span class="i-code">0xe810</span></div>
-        <div title="Code: 0xe811" class="the-icons span3"><i class="demo-icon drzicon-drz-preview-page-full">&#xe811;</i> <span class="i-name">drzicon-drz-preview-page-full</span><span class="i-code">0xe811</span></div>
-        <div title="Code: 0xe812" class="the-icons span3"><i class="demo-icon drzicon-drz-preview-page">&#xe812;</i> <span class="i-name">drzicon-drz-preview-page</span><span class="i-code">0xe812</span></div>
-        <div title="Code: 0xe813" class="the-icons span3"><i class="demo-icon drzicon-drz-search-pages">&#xe813;</i> <span class="i-name">drzicon-drz-search-pages</span><span class="i-code">0xe813</span></div>
+        <div class="the-icons span3" title="Code: 0xe810"><i class="demo-icon drzicon-drz-add-section">&#xe810;</i> <span class="i-name">drzicon-drz-add-section</span><span class="i-code">0xe810</span></div>
+        <div class="the-icons span3" title="Code: 0xe811"><i class="demo-icon drzicon-drz-preview-page-full">&#xe811;</i> <span class="i-name">drzicon-drz-preview-page-full</span><span class="i-code">0xe811</span></div>
+        <div class="the-icons span3" title="Code: 0xe812"><i class="demo-icon drzicon-drz-preview-page">&#xe812;</i> <span class="i-name">drzicon-drz-preview-page</span><span class="i-code">0xe812</span></div>
+        <div class="the-icons span3" title="Code: 0xe813"><i class="demo-icon drzicon-drz-search-pages">&#xe813;</i> <span class="i-name">drzicon-drz-search-pages</span><span class="i-code">0xe813</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe814" class="the-icons span3"><i class="demo-icon drzicon-drz-times">&#xe814;</i> <span class="i-name">drzicon-drz-times</span><span class="i-code">0xe814</span></div>
-        <div title="Code: 0xe815" class="the-icons span3"><i class="demo-icon drzicon-ds-2column-full">&#xe815;</i> <span class="i-name">drzicon-ds-2column-full</span><span class="i-code">0xe815</span></div>
-        <div title="Code: 0xe816" class="the-icons span3"><i class="demo-icon drzicon-ds-3column-full">&#xe816;</i> <span class="i-name">drzicon-ds-3column-full</span><span class="i-code">0xe816</span></div>
-        <div title="Code: 0xe817" class="the-icons span3"><i class="demo-icon drzicon-ds-accordion-full">&#xe817;</i> <span class="i-name">drzicon-ds-accordion-full</span><span class="i-code">0xe817</span></div>
+        <div class="the-icons span3" title="Code: 0xe814"><i class="demo-icon drzicon-drz-times">&#xe814;</i> <span class="i-name">drzicon-drz-times</span><span class="i-code">0xe814</span></div>
+        <div class="the-icons span3" title="Code: 0xe815"><i class="demo-icon drzicon-ds-2column-full">&#xe815;</i> <span class="i-name">drzicon-ds-2column-full</span><span class="i-code">0xe815</span></div>
+        <div class="the-icons span3" title="Code: 0xe816"><i class="demo-icon drzicon-ds-3column-full">&#xe816;</i> <span class="i-name">drzicon-ds-3column-full</span><span class="i-code">0xe816</span></div>
+        <div class="the-icons span3" title="Code: 0xe817"><i class="demo-icon drzicon-ds-accordion-full">&#xe817;</i> <span class="i-name">drzicon-ds-accordion-full</span><span class="i-code">0xe817</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe818" class="the-icons span3"><i class="demo-icon drzicon-minus">&#xe818;</i> <span class="i-name">drzicon-minus</span><span class="i-code">0xe818</span></div>
-        <div title="Code: 0xe819" class="the-icons span3"><i class="demo-icon drzicon-ds-button">&#xe819;</i> <span class="i-name">drzicon-ds-button</span><span class="i-code">0xe819</span></div>
-        <div title="Code: 0xe81a" class="the-icons span3"><i class="demo-icon drzicon-ds-church">&#xe81a;</i> <span class="i-name">drzicon-ds-church</span><span class="i-code">0xe81a</span></div>
-        <div title="Code: 0xe81b" class="the-icons span3"><i class="demo-icon drzicon-ds-form-full">&#xe81b;</i> <span class="i-name">drzicon-ds-form-full</span><span class="i-code">0xe81b</span></div>
+        <div class="the-icons span3" title="Code: 0xe818"><i class="demo-icon drzicon-minus">&#xe818;</i> <span class="i-name">drzicon-minus</span><span class="i-code">0xe818</span></div>
+        <div class="the-icons span3" title="Code: 0xe819"><i class="demo-icon drzicon-ds-button">&#xe819;</i> <span class="i-name">drzicon-ds-button</span><span class="i-code">0xe819</span></div>
+        <div class="the-icons span3" title="Code: 0xe81a"><i class="demo-icon drzicon-ds-church">&#xe81a;</i> <span class="i-name">drzicon-ds-church</span><span class="i-code">0xe81a</span></div>
+        <div class="the-icons span3" title="Code: 0xe81b"><i class="demo-icon drzicon-ds-form-full">&#xe81b;</i> <span class="i-name">drzicon-ds-form-full</span><span class="i-code">0xe81b</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe81c" class="the-icons span3"><i class="demo-icon drzicon-ds-imggallery-full">&#xe81c;</i> <span class="i-name">drzicon-ds-imggallery-full</span><span class="i-code">0xe81c</span></div>
-        <div title="Code: 0xe81d" class="the-icons span3"><i class="demo-icon drzicon-ds-imgslider-full">&#xe81d;</i> <span class="i-name">drzicon-ds-imgslider-full</span><span class="i-code">0xe81d</span></div>
-        <div title="Code: 0xe81e" class="the-icons span3"><i class="demo-icon drzicon-ds-menu-full">&#xe81e;</i> <span class="i-name">drzicon-ds-menu-full</span><span class="i-code">0xe81e</span></div>
-        <div title="Code: 0xe81f" class="the-icons span3"><i class="demo-icon drzicon-ds-pray">&#xe81f;</i> <span class="i-name">drzicon-ds-pray</span><span class="i-code">0xe81f</span></div>
+        <div class="the-icons span3" title="Code: 0xe81c"><i class="demo-icon drzicon-ds-imggallery-full">&#xe81c;</i> <span class="i-name">drzicon-ds-imggallery-full</span><span class="i-code">0xe81c</span></div>
+        <div class="the-icons span3" title="Code: 0xe81d"><i class="demo-icon drzicon-ds-imgslider-full">&#xe81d;</i> <span class="i-name">drzicon-ds-imgslider-full</span><span class="i-code">0xe81d</span></div>
+        <div class="the-icons span3" title="Code: 0xe81e"><i class="demo-icon drzicon-ds-menu-full">&#xe81e;</i> <span class="i-name">drzicon-ds-menu-full</span><span class="i-code">0xe81e</span></div>
+        <div class="the-icons span3" title="Code: 0xe81f"><i class="demo-icon drzicon-ds-pray">&#xe81f;</i> <span class="i-name">drzicon-ds-pray</span><span class="i-code">0xe81f</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe820" class="the-icons span3"><i class="demo-icon drzicon-ds-tabs-full">&#xe820;</i> <span class="i-name">drzicon-ds-tabs-full</span><span class="i-code">0xe820</span></div>
-        <div title="Code: 0xe821" class="the-icons span3"><i class="demo-icon drzicon-ds-text-full">&#xe821;</i> <span class="i-name">drzicon-ds-text-full</span><span class="i-code">0xe821</span></div>
-        <div title="Code: 0xe822" class="the-icons span3"><i class="demo-icon drzicon-floppy-full">&#xe822;</i> <span class="i-name">drzicon-floppy-full</span><span class="i-code">0xe822</span></div>
-        <div title="Code: 0xe823" class="the-icons span3"><i class="demo-icon drzicon-floppy">&#xe823;</i> <span class="i-name">drzicon-floppy</span><span class="i-code">0xe823</span></div>
+        <div class="the-icons span3" title="Code: 0xe820"><i class="demo-icon drzicon-ds-tabs-full">&#xe820;</i> <span class="i-name">drzicon-ds-tabs-full</span><span class="i-code">0xe820</span></div>
+        <div class="the-icons span3" title="Code: 0xe821"><i class="demo-icon drzicon-ds-text-full">&#xe821;</i> <span class="i-name">drzicon-ds-text-full</span><span class="i-code">0xe821</span></div>
+        <div class="the-icons span3" title="Code: 0xe822"><i class="demo-icon drzicon-floppy-full">&#xe822;</i> <span class="i-name">drzicon-floppy-full</span><span class="i-code">0xe822</span></div>
+        <div class="the-icons span3" title="Code: 0xe823"><i class="demo-icon drzicon-floppy">&#xe823;</i> <span class="i-name">drzicon-floppy</span><span class="i-code">0xe823</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe824" class="the-icons span3"><i class="demo-icon drzicon-gear">&#xe824;</i> <span class="i-name">drzicon-gear</span><span class="i-code">0xe824</span></div>
-        <div title="Code: 0xe825" class="the-icons span3"><i class="demo-icon drzicon-group">&#xe825;</i> <span class="i-name">drzicon-group</span><span class="i-code">0xe825</span></div>
-        <div title="Code: 0xe826" class="the-icons span3"><i class="demo-icon drzicon-header">&#xe826;</i> <span class="i-name">drzicon-header</span><span class="i-code">0xe826</span></div>
-        <div title="Code: 0xe827" class="the-icons span3"><i class="demo-icon drzicon-logo">&#xe827;</i> <span class="i-name">drzicon-logo</span><span class="i-code">0xe827</span></div>
+        <div class="the-icons span3" title="Code: 0xe824"><i class="demo-icon drzicon-gear">&#xe824;</i> <span class="i-name">drzicon-gear</span><span class="i-code">0xe824</span></div>
+        <div class="the-icons span3" title="Code: 0xe825"><i class="demo-icon drzicon-group">&#xe825;</i> <span class="i-name">drzicon-group</span><span class="i-code">0xe825</span></div>
+        <div class="the-icons span3" title="Code: 0xe826"><i class="demo-icon drzicon-header">&#xe826;</i> <span class="i-name">drzicon-header</span><span class="i-code">0xe826</span></div>
+        <div class="the-icons span3" title="Code: 0xe827"><i class="demo-icon drzicon-logo">&#xe827;</i> <span class="i-name">drzicon-logo</span><span class="i-code">0xe827</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe828" class="the-icons span3"><i class="demo-icon drzicon-map-pin">&#xe828;</i> <span class="i-name">drzicon-map-pin</span><span class="i-code">0xe828</span></div>
-        <div title="Code: 0xe829" class="the-icons span3"><i class="demo-icon drzicon-paint-bucket">&#xe829;</i> <span class="i-name">drzicon-paint-bucket</span><span class="i-code">0xe829</span></div>
-        <div title="Code: 0xe82a" class="the-icons span3"><i class="demo-icon drzicon-paint-pallete-lrg">&#xe82a;</i> <span class="i-name">drzicon-paint-pallete-lrg</span><span class="i-code">0xe82a</span></div>
-        <div title="Code: 0xe82b" class="the-icons span3"><i class="demo-icon drzicon-puddle">&#xe82b;</i> <span class="i-name">drzicon-puddle</span><span class="i-code">0xe82b</span></div>
+        <div class="the-icons span3" title="Code: 0xe828"><i class="demo-icon drzicon-map-pin">&#xe828;</i> <span class="i-name">drzicon-map-pin</span><span class="i-code">0xe828</span></div>
+        <div class="the-icons span3" title="Code: 0xe829"><i class="demo-icon drzicon-paint-bucket">&#xe829;</i> <span class="i-name">drzicon-paint-bucket</span><span class="i-code">0xe829</span></div>
+        <div class="the-icons span3" title="Code: 0xe82a"><i class="demo-icon drzicon-paint-pallete-lrg">&#xe82a;</i> <span class="i-name">drzicon-paint-pallete-lrg</span><span class="i-code">0xe82a</span></div>
+        <div class="the-icons span3" title="Code: 0xe82b"><i class="demo-icon drzicon-puddle">&#xe82b;</i> <span class="i-name">drzicon-puddle</span><span class="i-code">0xe82b</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe82c" class="the-icons span3"><i class="demo-icon drzicon-radio">&#xe82c;</i> <span class="i-name">drzicon-radio</span><span class="i-code">0xe82c</span></div>
-        <div title="Code: 0xe82d" class="the-icons span3"><i class="demo-icon drzicon-table-column">&#xe82d;</i> <span class="i-name">drzicon-table-column</span><span class="i-code">0xe82d</span></div>
-        <div title="Code: 0xe82e" class="the-icons span3"><i class="demo-icon drzicon-table-row">&#xe82e;</i> <span class="i-name">drzicon-table-row</span><span class="i-code">0xe82e</span></div>
-        <div title="Code: 0xe82f" class="the-icons span3"><i class="demo-icon drzicon-table">&#xe82f;</i> <span class="i-name">drzicon-table</span><span class="i-code">0xe82f</span></div>
+        <div class="the-icons span3" title="Code: 0xe82c"><i class="demo-icon drzicon-radio">&#xe82c;</i> <span class="i-name">drzicon-radio</span><span class="i-code">0xe82c</span></div>
+        <div class="the-icons span3" title="Code: 0xe82d"><i class="demo-icon drzicon-table-column">&#xe82d;</i> <span class="i-name">drzicon-table-column</span><span class="i-code">0xe82d</span></div>
+        <div class="the-icons span3" title="Code: 0xe82e"><i class="demo-icon drzicon-table-row">&#xe82e;</i> <span class="i-name">drzicon-table-row</span><span class="i-code">0xe82e</span></div>
+        <div class="the-icons span3" title="Code: 0xe82f"><i class="demo-icon drzicon-table">&#xe82f;</i> <span class="i-name">drzicon-table</span><span class="i-code">0xe82f</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe830" class="the-icons span3"><i class="demo-icon drzicon-user-full">&#xe830;</i> <span class="i-name">drzicon-user-full</span><span class="i-code">0xe830</span></div>
-        <div title="Code: 0xe831" class="the-icons span3"><i class="demo-icon drzicon-video-player">&#xe831;</i> <span class="i-name">drzicon-video-player</span><span class="i-code">0xe831</span></div>
-        <div title="Code: 0xe832" class="the-icons span3"><i class="demo-icon drzicon-building">&#xe832;</i> <span class="i-name">drzicon-building</span><span class="i-code">0xe832</span></div>
-        <div title="Code: 0xe833" class="the-icons span3"><i class="demo-icon drzicon-calendar">&#xe833;</i> <span class="i-name">drzicon-calendar</span><span class="i-code">0xe833</span></div>
+        <div class="the-icons span3" title="Code: 0xe830"><i class="demo-icon drzicon-user-full">&#xe830;</i> <span class="i-name">drzicon-user-full</span><span class="i-code">0xe830</span></div>
+        <div class="the-icons span3" title="Code: 0xe831"><i class="demo-icon drzicon-video-player">&#xe831;</i> <span class="i-name">drzicon-video-player</span><span class="i-code">0xe831</span></div>
+        <div class="the-icons span3" title="Code: 0xe832"><i class="demo-icon drzicon-building">&#xe832;</i> <span class="i-name">drzicon-building</span><span class="i-code">0xe832</span></div>
+        <div class="the-icons span3" title="Code: 0xe833"><i class="demo-icon drzicon-calendar">&#xe833;</i> <span class="i-name">drzicon-calendar</span><span class="i-code">0xe833</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe834" class="the-icons span3"><i class="demo-icon drzicon-cross">&#xe834;</i> <span class="i-name">drzicon-cross</span><span class="i-code">0xe834</span></div>
-        <div title="Code: 0xe835" class="the-icons span3"><i class="demo-icon drzicon-ds-fish">&#xe835;</i> <span class="i-name">drzicon-ds-fish</span><span class="i-code">0xe835</span></div>
-        <div title="Code: 0xe836" class="the-icons span3"><i class="demo-icon drzicon-folder">&#xe836;</i> <span class="i-name">drzicon-folder</span><span class="i-code">0xe836</span></div>
-        <div title="Code: 0xe837" class="the-icons span3"><i class="demo-icon drzicon-periscope">&#xe837;</i> <span class="i-name">drzicon-periscope</span><span class="i-code">0xe837</span></div>
+        <div class="the-icons span3" title="Code: 0xe834"><i class="demo-icon drzicon-cross">&#xe834;</i> <span class="i-name">drzicon-cross</span><span class="i-code">0xe834</span></div>
+        <div class="the-icons span3" title="Code: 0xe835"><i class="demo-icon drzicon-ds-fish">&#xe835;</i> <span class="i-name">drzicon-ds-fish</span><span class="i-code">0xe835</span></div>
+        <div class="the-icons span3" title="Code: 0xe836"><i class="demo-icon drzicon-folder">&#xe836;</i> <span class="i-name">drzicon-folder</span><span class="i-code">0xe836</span></div>
+        <div class="the-icons span3" title="Code: 0xe837"><i class="demo-icon drzicon-periscope">&#xe837;</i> <span class="i-name">drzicon-periscope</span><span class="i-code">0xe837</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe838" class="the-icons span3"><i class="demo-icon drzicon-quote">&#xe838;</i> <span class="i-name">drzicon-quote</span><span class="i-code">0xe838</span></div>
-        <div title="Code: 0xe839" class="the-icons span3"><i class="demo-icon drzicon-form">&#xe839;</i> <span class="i-name">drzicon-form</span><span class="i-code">0xe839</span></div>
-        <div title="Code: 0xe83a" class="the-icons span3"><i class="demo-icon drzicon-template-footer">&#xe83a;</i> <span class="i-name">drzicon-template-footer</span><span class="i-code">0xe83a</span></div>
-        <div title="Code: 0xe83b" class="the-icons span3"><i class="demo-icon drzicon-template-header">&#xe83b;</i> <span class="i-name">drzicon-template-header</span><span class="i-code">0xe83b</span></div>
+        <div class="the-icons span3" title="Code: 0xe838"><i class="demo-icon drzicon-quote">&#xe838;</i> <span class="i-name">drzicon-quote</span><span class="i-code">0xe838</span></div>
+        <div class="the-icons span3" title="Code: 0xe839"><i class="demo-icon drzicon-form">&#xe839;</i> <span class="i-name">drzicon-form</span><span class="i-code">0xe839</span></div>
+        <div class="the-icons span3" title="Code: 0xe83a"><i class="demo-icon drzicon-template-footer">&#xe83a;</i> <span class="i-name">drzicon-template-footer</span><span class="i-code">0xe83a</span></div>
+        <div class="the-icons span3" title="Code: 0xe83b"><i class="demo-icon drzicon-template-header">&#xe83b;</i> <span class="i-name">drzicon-template-header</span><span class="i-code">0xe83b</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe83c" class="the-icons span3"><i class="demo-icon drzicon-webpage">&#xe83c;</i> <span class="i-name">drzicon-webpage</span><span class="i-code">0xe83c</span></div>
-        <div title="Code: 0xe83d" class="the-icons span3"><i class="demo-icon drzicon-paint-pallete-small">&#xe83d;</i> <span class="i-name">drzicon-paint-pallete-small</span><span class="i-code">0xe83d</span></div>
-        <div title="Code: 0xe83e" class="the-icons span3"><i class="demo-icon drzicon-microphone">&#xe83e;</i> <span class="i-name">drzicon-microphone</span><span class="i-code">0xe83e</span></div>
-        <div title="Code: 0xe83f" class="the-icons span3"><i class="demo-icon drzicon-list">&#xe83f;</i> <span class="i-name">drzicon-list</span><span class="i-code">0xe83f</span></div>
+        <div class="the-icons span3" title="Code: 0xe83c"><i class="demo-icon drzicon-webpage">&#xe83c;</i> <span class="i-name">drzicon-webpage</span><span class="i-code">0xe83c</span></div>
+        <div class="the-icons span3" title="Code: 0xe83d"><i class="demo-icon drzicon-paint-pallete-small">&#xe83d;</i> <span class="i-name">drzicon-paint-pallete-small</span><span class="i-code">0xe83d</span></div>
+        <div class="the-icons span3" title="Code: 0xe83e"><i class="demo-icon drzicon-microphone">&#xe83e;</i> <span class="i-name">drzicon-microphone</span><span class="i-code">0xe83e</span></div>
+        <div class="the-icons span3" title="Code: 0xe83f"><i class="demo-icon drzicon-list">&#xe83f;</i> <span class="i-name">drzicon-list</span><span class="i-code">0xe83f</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe840" class="the-icons span3"><i class="demo-icon drzicon-javascript">&#xe840;</i> <span class="i-name">drzicon-javascript</span><span class="i-code">0xe840</span></div>
-        <div title="Code: 0xe841" class="the-icons span3"><i class="demo-icon drzicon-plus-circled">&#xe841;</i> <span class="i-name">drzicon-plus-circled</span><span class="i-code">0xe841</span></div>
-        <div title="Code: 0xe842" class="the-icons span3"><i class="demo-icon drzicon-plus">&#xe842;</i> <span class="i-name">drzicon-plus</span><span class="i-code">0xe842</span></div>
-        <div title="Code: 0xe843" class="the-icons span3"><i class="demo-icon drzicon-cancel">&#xe843;</i> <span class="i-name">drzicon-cancel</span><span class="i-code">0xe843</span></div>
+        <div class="the-icons span3" title="Code: 0xe840"><i class="demo-icon drzicon-javascript">&#xe840;</i> <span class="i-name">drzicon-javascript</span><span class="i-code">0xe840</span></div>
+        <div class="the-icons span3" title="Code: 0xe841"><i class="demo-icon drzicon-plus-circled">&#xe841;</i> <span class="i-name">drzicon-plus-circled</span><span class="i-code">0xe841</span></div>
+        <div class="the-icons span3" title="Code: 0xe842"><i class="demo-icon drzicon-plus">&#xe842;</i> <span class="i-name">drzicon-plus</span><span class="i-code">0xe842</span></div>
+        <div class="the-icons span3" title="Code: 0xe843"><i class="demo-icon drzicon-cancel">&#xe843;</i> <span class="i-name">drzicon-cancel</span><span class="i-code">0xe843</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe844" class="the-icons span3"><i class="demo-icon drzicon-wide-card">&#xe844;</i> <span class="i-name">drzicon-wide-card</span><span class="i-code">0xe844</span></div>
-        <div title="Code: 0xe845" class="the-icons span3"><i class="demo-icon drzicon-step-card">&#xe845;</i> <span class="i-name">drzicon-step-card</span><span class="i-code">0xe845</span></div>
-        <div title="Code: 0xe846" class="the-icons span3"><i class="demo-icon drzicon-general-card">&#xe846;</i> <span class="i-name">drzicon-general-card</span><span class="i-code">0xe846</span></div>
-        <div title="Code: 0xe847" class="the-icons span3"><i class="demo-icon drzicon-event-card">&#xe847;</i> <span class="i-name">drzicon-event-card</span><span class="i-code">0xe847</span></div>
+        <div class="the-icons span3" title="Code: 0xe844"><i class="demo-icon drzicon-wide-card">&#xe844;</i> <span class="i-name">drzicon-wide-card</span><span class="i-code">0xe844</span></div>
+        <div class="the-icons span3" title="Code: 0xe845"><i class="demo-icon drzicon-step-card">&#xe845;</i> <span class="i-name">drzicon-step-card</span><span class="i-code">0xe845</span></div>
+        <div class="the-icons span3" title="Code: 0xe846"><i class="demo-icon drzicon-general-card">&#xe846;</i> <span class="i-name">drzicon-general-card</span><span class="i-code">0xe846</span></div>
+        <div class="the-icons span3" title="Code: 0xe847"><i class="demo-icon drzicon-event-card">&#xe847;</i> <span class="i-name">drzicon-event-card</span><span class="i-code">0xe847</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe848" class="the-icons span3"><i class="demo-icon drzicon-divider">&#xe848;</i> <span class="i-name">drzicon-divider</span><span class="i-code">0xe848</span></div>
-        <div title="Code: 0xe849" class="the-icons span3"><i class="demo-icon drzicon-code-brackets">&#xe849;</i> <span class="i-name">drzicon-code-brackets</span><span class="i-code">0xe849</span></div>
-        <div title="Code: 0xe84a" class="the-icons span3"><i class="demo-icon drzicon-cloud-search">&#xe84a;</i> <span class="i-name">drzicon-cloud-search</span><span class="i-code">0xe84a</span></div>
-        <div title="Code: 0xe84b" class="the-icons span3"><i class="demo-icon drzicon-image">&#xe84b;</i> <span class="i-name">drzicon-image</span><span class="i-code">0xe84b</span></div>
+        <div class="the-icons span3" title="Code: 0xe848"><i class="demo-icon drzicon-divider">&#xe848;</i> <span class="i-name">drzicon-divider</span><span class="i-code">0xe848</span></div>
+        <div class="the-icons span3" title="Code: 0xe849"><i class="demo-icon drzicon-code-brackets">&#xe849;</i> <span class="i-name">drzicon-code-brackets</span><span class="i-code">0xe849</span></div>
+        <div class="the-icons span3" title="Code: 0xe84a"><i class="demo-icon drzicon-cloud-search">&#xe84a;</i> <span class="i-name">drzicon-cloud-search</span><span class="i-code">0xe84a</span></div>
+        <div class="the-icons span3" title="Code: 0xe84b"><i class="demo-icon drzicon-image">&#xe84b;</i> <span class="i-name">drzicon-image</span><span class="i-code">0xe84b</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe84c" class="the-icons span3"><i class="demo-icon drzicon-asterisk">&#xe84c;</i> <span class="i-name">drzicon-asterisk</span><span class="i-code">0xe84c</span></div>
-        <div title="Code: 0xe84d" class="the-icons span3"><i class="demo-icon drzicon-upload">&#xe84d;</i> <span class="i-name">drzicon-upload</span><span class="i-code">0xe84d</span></div>
-        <div title="Code: 0xe84e" class="the-icons span3"><i class="demo-icon drzicon-globe">&#xe84e;</i> <span class="i-name">drzicon-globe</span><span class="i-code">0xe84e</span></div>
-        <div title="Code: 0xe84f" class="the-icons span3"><i class="demo-icon drzicon-help-circled">&#xe84f;</i> <span class="i-name">drzicon-help-circled</span><span class="i-code">0xe84f</span></div>
+        <div class="the-icons span3" title="Code: 0xe84c"><i class="demo-icon drzicon-asterisk">&#xe84c;</i> <span class="i-name">drzicon-asterisk</span><span class="i-code">0xe84c</span></div>
+        <div class="the-icons span3" title="Code: 0xe84d"><i class="demo-icon drzicon-upload">&#xe84d;</i> <span class="i-name">drzicon-upload</span><span class="i-code">0xe84d</span></div>
+        <div class="the-icons span3" title="Code: 0xe84e"><i class="demo-icon drzicon-globe">&#xe84e;</i> <span class="i-name">drzicon-globe</span><span class="i-code">0xe84e</span></div>
+        <div class="the-icons span3" title="Code: 0xe84f"><i class="demo-icon drzicon-help-circled">&#xe84f;</i> <span class="i-name">drzicon-help-circled</span><span class="i-code">0xe84f</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe850" class="the-icons span3"><i class="demo-icon drzicon-pencil">&#xe850;</i> <span class="i-name">drzicon-pencil</span><span class="i-code">0xe850</span></div>
-        <div title="Code: 0xe851" class="the-icons span3"><i class="demo-icon drzicon-font">&#xe851;</i> <span class="i-name">drzicon-font</span><span class="i-code">0xe851</span></div>
-        <div title="Code: 0xe852" class="the-icons span3"><i class="demo-icon drzicon-check">&#xe852;</i> <span class="i-name">drzicon-check</span><span class="i-code">0xe852</span></div>
-        <div title="Code: 0xe853" class="the-icons span3"><i class="demo-icon drzicon-phone">&#xe853;</i> <span class="i-name">drzicon-phone</span><span class="i-code">0xe853</span></div>
+        <div class="the-icons span3" title="Code: 0xe850"><i class="demo-icon drzicon-pencil">&#xe850;</i> <span class="i-name">drzicon-pencil</span><span class="i-code">0xe850</span></div>
+        <div class="the-icons span3" title="Code: 0xe851"><i class="demo-icon drzicon-font">&#xe851;</i> <span class="i-name">drzicon-font</span><span class="i-code">0xe851</span></div>
+        <div class="the-icons span3" title="Code: 0xe852"><i class="demo-icon drzicon-check">&#xe852;</i> <span class="i-name">drzicon-check</span><span class="i-code">0xe852</span></div>
+        <div class="the-icons span3" title="Code: 0xe853"><i class="demo-icon drzicon-phone">&#xe853;</i> <span class="i-name">drzicon-phone</span><span class="i-code">0xe853</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe854" class="the-icons span3"><i class="demo-icon drzicon-eye">&#xe854;</i> <span class="i-name">drzicon-eye</span><span class="i-code">0xe854</span></div>
-        <div title="Code: 0xe855" class="the-icons span3"><i class="demo-icon drzicon-eye-off">&#xe855;</i> <span class="i-name">drzicon-eye-off</span><span class="i-code">0xe855</span></div>
-        <div title="Code: 0xe856" class="the-icons span3"><i class="demo-icon drzicon-note-beamed">&#xe856;</i> <span class="i-name">drzicon-note-beamed</span><span class="i-code">0xe856</span></div>
-        <div title="Code: 0xe857" class="the-icons span3"><i class="demo-icon drzicon-trash-empty">&#xe857;</i> <span class="i-name">drzicon-trash-empty</span><span class="i-code">0xe857</span></div>
+        <div class="the-icons span3" title="Code: 0xe854"><i class="demo-icon drzicon-eye">&#xe854;</i> <span class="i-name">drzicon-eye</span><span class="i-code">0xe854</span></div>
+        <div class="the-icons span3" title="Code: 0xe855"><i class="demo-icon drzicon-eye-off">&#xe855;</i> <span class="i-name">drzicon-eye-off</span><span class="i-code">0xe855</span></div>
+        <div class="the-icons span3" title="Code: 0xe856"><i class="demo-icon drzicon-note-beamed">&#xe856;</i> <span class="i-name">drzicon-note-beamed</span><span class="i-code">0xe856</span></div>
+        <div class="the-icons span3" title="Code: 0xe857"><i class="demo-icon drzicon-trash-empty">&#xe857;</i> <span class="i-name">drzicon-trash-empty</span><span class="i-code">0xe857</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe858" class="the-icons span3"><i class="demo-icon drzicon-no-image">&#xe858;</i> <span class="i-name">drzicon-no-image</span><span class="i-code">0xe858</span></div>
-        <div title="Code: 0xe859" class="the-icons span3"><i class="demo-icon drzicon-search">&#xe859;</i> <span class="i-name">drzicon-search</span><span class="i-code">0xe859</span></div>
-        <div title="Code: 0xf0e0" class="the-icons span3"><i class="demo-icon drzicon-mail-alt">&#xf0e0;</i> <span class="i-name">drzicon-mail-alt</span><span class="i-code">0xf0e0</span></div>
-        <div title="Code: 0xf0ee" class="the-icons span3"><i class="demo-icon drzicon-upload-cloud">&#xf0ee;</i> <span class="i-name">drzicon-upload-cloud</span><span class="i-code">0xf0ee</span></div>
+        <div class="the-icons span3" title="Code: 0xe858"><i class="demo-icon drzicon-no-image">&#xe858;</i> <span class="i-name">drzicon-no-image</span><span class="i-code">0xe858</span></div>
+        <div class="the-icons span3" title="Code: 0xe859"><i class="demo-icon drzicon-search">&#xe859;</i> <span class="i-name">drzicon-search</span><span class="i-code">0xe859</span></div>
+        <div class="the-icons span3" title="Code: 0xe85a"><i class="demo-icon drzicon-editor">&#xe85a;</i> <span class="i-name">drzicon-editor</span><span class="i-code">0xe85a</span></div>
+        <div class="the-icons span3" title="Code: 0xf0e0"><i class="demo-icon drzicon-mail-alt">&#xf0e0;</i> <span class="i-name">drzicon-mail-alt</span><span class="i-code">0xf0e0</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xf0fe" class="the-icons span3"><i class="demo-icon drzicon-plus-squared">&#xf0fe;</i> <span class="i-name">drzicon-plus-squared</span><span class="i-code">0xf0fe</span></div>
-        <div title="Code: 0xf146" class="the-icons span3"><i class="demo-icon drzicon-minus-squared">&#xf146;</i> <span class="i-name">drzicon-minus-squared</span><span class="i-code">0xf146</span></div>
-        <div title="Code: 0xf150" class="the-icons span3"><i class="demo-icon drzicon-expand">&#xf150;</i> <span class="i-name">drzicon-expand</span><span class="i-code">0xf150</span></div>
-        <div title="Code: 0xf175" class="the-icons span3"><i class="demo-icon drzicon-down">&#xf175;</i> <span class="i-name">drzicon-down</span><span class="i-code">0xf175</span></div>
+        <div class="the-icons span3" title="Code: 0xf0ee"><i class="demo-icon drzicon-upload-cloud">&#xf0ee;</i> <span class="i-name">drzicon-upload-cloud</span><span class="i-code">0xf0ee</span></div>
+        <div class="the-icons span3" title="Code: 0xf0fe"><i class="demo-icon drzicon-plus-squared">&#xf0fe;</i> <span class="i-name">drzicon-plus-squared</span><span class="i-code">0xf0fe</span></div>
+        <div class="the-icons span3" title="Code: 0xf146"><i class="demo-icon drzicon-minus-squared">&#xf146;</i> <span class="i-name">drzicon-minus-squared</span><span class="i-code">0xf146</span></div>
+        <div class="the-icons span3" title="Code: 0xf150"><i class="demo-icon drzicon-expand">&#xf150;</i> <span class="i-name">drzicon-expand</span><span class="i-code">0xf150</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xf176" class="the-icons span3"><i class="demo-icon drzicon-up">&#xf176;</i> <span class="i-name">drzicon-up</span><span class="i-code">0xf176</span></div>
-        <div title="Code: 0xf177" class="the-icons span3"><i class="demo-icon drzicon-left">&#xf177;</i> <span class="i-name">drzicon-left</span><span class="i-code">0xf177</span></div>
-        <div title="Code: 0xf192" class="the-icons span3"><i class="demo-icon drzicon-dot-circled">&#xf192;</i> <span class="i-name">drzicon-dot-circled</span><span class="i-code">0xf192</span></div>
-        <div title="Code: 0xf1dd" class="the-icons span3"><i class="demo-icon drzicon-paragraph">&#xf1dd;</i> <span class="i-name">drzicon-paragraph</span><span class="i-code">0xf1dd</span></div>
+        <div class="the-icons span3" title="Code: 0xf175"><i class="demo-icon drzicon-down">&#xf175;</i> <span class="i-name">drzicon-down</span><span class="i-code">0xf175</span></div>
+        <div class="the-icons span3" title="Code: 0xf176"><i class="demo-icon drzicon-up">&#xf176;</i> <span class="i-name">drzicon-up</span><span class="i-code">0xf176</span></div>
+        <div class="the-icons span3" title="Code: 0xf177"><i class="demo-icon drzicon-left">&#xf177;</i> <span class="i-name">drzicon-left</span><span class="i-code">0xf177</span></div>
+        <div class="the-icons span3" title="Code: 0xf192"><i class="demo-icon drzicon-dot-circled">&#xf192;</i> <span class="i-name">drzicon-dot-circled</span><span class="i-code">0xf192</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xf1f8" class="the-icons span3"><i class="demo-icon drzicon-trash">&#xf1f8;</i> <span class="i-name">drzicon-trash</span><span class="i-code">0xf1f8</span></div>
-        <div title="Code: 0xf292" class="the-icons span3"><i class="demo-icon drzicon-hashtag">&#xf292;</i> <span class="i-name">drzicon-hashtag</span><span class="i-code">0xf292</span></div>
+        <div class="the-icons span3" title="Code: 0xf1dd"><i class="demo-icon drzicon-paragraph">&#xf1dd;</i> <span class="i-name">drzicon-paragraph</span><span class="i-code">0xf1dd</span></div>
+        <div class="the-icons span3" title="Code: 0xf1f8"><i class="demo-icon drzicon-trash">&#xf1f8;</i> <span class="i-name">drzicon-trash</span><span class="i-code">0xf1f8</span></div>
+        <div class="the-icons span3" title="Code: 0xf292"><i class="demo-icon drzicon-hashtag">&#xf292;</i> <span class="i-name">drzicon-hashtag</span><span class="i-code">0xf292</span></div>
       </div>
     </div>
     <div class="container footer">Generated by <a href="http://fontello.com">fontello.com</a></div>

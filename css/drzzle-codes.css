@@ -89,6 +89,7 @@
 .drzicon-trash-empty:before { content: '\e857'; } /* '' */
 .drzicon-no-image:before { content: '\e858'; } /* '' */
 .drzicon-search:before { content: '\e859'; } /* '' */
+.drzicon-editor:before { content: '\e85a'; } /* '' */
 .drzicon-mail-alt:before { content: '\f0e0'; } /* '' */
 .drzicon-upload-cloud:before { content: '\f0ee'; } /* '' */
 .drzicon-plus-squared:before { content: '\f0fe'; } /* '' */
