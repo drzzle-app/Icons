@@ -90,6 +90,7 @@
 .drzicon-no-image:before { content: '\e858'; } /* '' */
 .drzicon-search:before { content: '\e859'; } /* '' */
 .drzicon-editor:before { content: '\e85a'; } /* '' */
+.drzicon-editor-line:before { content: '\e85b'; } /* '' */
 .drzicon-mail-alt:before { content: '\f0e0'; } /* '' */
 .drzicon-upload-cloud:before { content: '\f0ee'; } /* '' */
 .drzicon-plus-squared:before { content: '\f0fe'; } /* '' */
