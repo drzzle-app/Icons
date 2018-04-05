@@ -1257,6 +1257,12 @@
       "search": [
         "edit-paper"
       ]
+    },
+    {
+      "uid": "7cf0c6fefa5327473dec91427434ae26",
+      "css": "block",
+      "code": 59486,
+      "src": "iconic"
     }
   ]
 }
