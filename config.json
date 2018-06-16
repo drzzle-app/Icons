@@ -1263,6 +1263,12 @@
       "css": "block",
       "code": 59486,
       "src": "iconic"
+    },
+    {
+      "uid": "0e26e70b4aa537cc206f41b21dcf2fcc",
+      "css": "lock",
+      "code": 59487,
+      "src": "elusive"
     }
   ]
 }
