@@ -1587,6 +1587,18 @@
       "css": "resize-vertical",
       "code": 59516,
       "src": "fontawesome"
+    },
+    {
+      "uid": "74b2f1d1ee541715b3f389f7cdf63d1c",
+      "css": "logout-1",
+      "code": 59517,
+      "src": "websymbols"
+    },
+    {
+      "uid": "23710230c21b4af140947e3604cc67a5",
+      "css": "comment",
+      "code": 59518,
+      "src": "elusive"
     }
   ]
 }
