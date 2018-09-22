@@ -128,6 +128,7 @@
 .drzicon-comment:before { content: '\e87e'; } /* '' */
 .drzicon-move:before { content: '\f047'; } /* '' */
 .drzicon-link-ext:before { content: '\f08e'; } /* '' */
+.drzicon-docs:before { content: '\f0c5'; } /* '' */
 .drzicon-menu:before { content: '\f0c9'; } /* '' */
 .drzicon-strike:before { content: '\f0cc'; } /* '' */
 .drzicon-underline:before { content: '\f0cd'; } /* '' */
