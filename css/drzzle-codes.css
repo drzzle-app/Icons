@@ -130,6 +130,8 @@
 .drzicon-link-ext:before { content: '\f08e'; } /* '' */
 .drzicon-docs:before { content: '\f0c5'; } /* '' */
 .drzicon-menu:before { content: '\f0c9'; } /* '' */
+.drzicon-list-bullet:before { content: '\f0ca'; } /* '' */
+.drzicon-list-numbered:before { content: '\f0cb'; } /* '' */
 .drzicon-strike:before { content: '\f0cc'; } /* '' */
 .drzicon-underline:before { content: '\f0cd'; } /* '' */
 .drzicon-pinterest-squared:before { content: '\f0d3'; } /* '' */
