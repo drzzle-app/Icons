@@ -142,6 +142,9 @@
 .drzicon-plus-squared:before { content: '\f0fe'; } /* '' */
 .drzicon-angle-left:before { content: '\f104'; } /* '' */
 .drzicon-angle-right:before { content: '\f105'; } /* '' */
+.drzicon-desktop:before { content: '\f108'; } /* '' */
+.drzicon-tablet:before { content: '\f10a'; } /* '' */
+.drzicon-mobile:before { content: '\f10b'; } /* '' */
 .drzicon-play-circled:before { content: '\f144'; } /* '' */
 .drzicon-minus-squared:before { content: '\f146'; } /* '' */
 .drzicon-pencil-squared:before { content: '\f14b'; } /* '' */
